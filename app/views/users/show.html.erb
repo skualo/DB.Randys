@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @user.Name %>
+</p>
+
+<p>
+  <b>Uniqueid:</b>
+  <%= @user.UniqueID %>
+</p>
+
+<p>
+  <b>Username:</b>
+  <%= @user.Username %>
+</p>
+
+<p>
+  <b>Keypass:</b>
+  <%= @user.keyPass %>
+</p>
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

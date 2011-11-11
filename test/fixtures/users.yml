@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  Name: MyString
+  UniqueID: MyString
+  Username: MyString
+  keyPass: MyString
+
+two:
+  Name: MyString
+  UniqueID: MyString
+  Username: MyString
+  keyPass: MyString
