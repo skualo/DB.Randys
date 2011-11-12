@@ -329,3 +329,34 @@ Started GET "/" for 127.0.0.1 at 2011-11-12 14:14:21 -0600
   [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
 Rendered users/index.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-12 14:18:04 -0600
+  Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+Rendered users/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 389ms (Views: 388.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-12 14:18:05 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-12 14:18:05 -0600
+Served asset /scaffolds.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-12 14:18:05 -0600
+Served asset /users.css - 200 OK (19ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-12 14:18:05 -0600
+Served asset /jquery.js - 304 Not Modified (223ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-12 14:18:05 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (105ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-12 14:18:05 -0600
+Served asset /users.js - 304 Not Modified (1ms)
