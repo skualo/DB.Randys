@@ -1,6 +1,7 @@
 WebDB::Application.routes.draw do
-  resources :users
-
+    resources :users
+    root :to => 'users#index'
+    #map.root :controller => "users"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

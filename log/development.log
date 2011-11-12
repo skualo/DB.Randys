@@ -214,3 +214,118 @@ Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.3ms)
   [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
   [1m[36m (1.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20110923002825')[0m
   [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+
+
+Started GET "/users.html" for 127.0.0.1 at 2011-11-12 13:58:12 -0600
+
+NameError (undefined local variable or method `map' for #<ActionDispatch::Routing::Mapper:0x007fa75da58aa0>):
+  config/routes.rb:3:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+Rendered /Users/raulcardenas/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/raulcardenas/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /Users/raulcardenas/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.2ms)
+
+
+Started GET "/users.html" for 127.0.0.1 at 2011-11-12 13:58:35 -0600
+
+NameError (undefined local variable or method `map' for #<ActionDispatch::Routing::Mapper:0x007fa75b9057e0>):
+  config/routes.rb:3:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+Rendered /Users/raulcardenas/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/raulcardenas/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/raulcardenas/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.4ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2011-11-12 14:05:55 -0600
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  Processing by Rails::InfoController#properties as */*
+Rendered inline template (0.3ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users.html" for 127.0.0.1 at 2011-11-12 14:08:04 -0600
+
+NameError (undefined local variable or method `map' for #<ActionDispatch::Routing::Mapper:0x007fa75fb32ed8>):
+  config/routes.rb:3:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+Rendered /Users/raulcardenas/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/raulcardenas/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Users/raulcardenas/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.5ms)
+
+
+Started GET "/users.html" for 127.0.0.1 at 2011-11-12 14:09:40 -0600
+
+NameError (undefined local variable or method `map' for #<ActionDispatch::Routing::Mapper:0x007fa75dd291a8>):
+  config/routes.rb:3:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+Rendered /Users/raulcardenas/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/raulcardenas/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/raulcardenas/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.6ms)
+
+
+Started GET "/users.html" for 127.0.0.1 at 2011-11-12 14:11:36 -0600
+
+ArgumentError (missing :action):
+  config/routes.rb:3:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+Rendered /Users/raulcardenas/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/raulcardenas/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/raulcardenas/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/users.html" for 127.0.0.1 at 2011-11-12 14:11:51 -0600
+
+SyntaxError (/Users/raulcardenas/Documents/RPM/DB.Randys/config/routes.rb:3: syntax error, unexpected tASSOC, expecting keyword_end
+    root HOME:to => 'users'
+                   ^):
+  
+
+Rendered /Users/raulcardenas/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/raulcardenas/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/raulcardenas/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.4ms)
+
+
+Started GET "/users.html" for 127.0.0.1 at 2011-11-12 14:13:21 -0600
+
+SyntaxError (/Users/raulcardenas/Documents/RPM/DB.Randys/config/routes.rb:3: syntax error, unexpected tASSOC, expecting keyword_end
+    root HOME:to => 'users#index'
+                   ^):
+  
+
+Rendered /Users/raulcardenas/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/raulcardenas/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/raulcardenas/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/users.html" for 127.0.0.1 at 2011-11-12 14:13:32 -0600
+
+ActionController::RoutingError (No route matches [GET] "/users.html"):
+  
+
+Rendered /Users/raulcardenas/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/users.html" for 127.0.0.1 at 2011-11-12 14:13:40 -0600
+  Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+Rendered users/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 54ms (Views: 52.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-12 14:14:20 -0600
+  Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+Rendered users/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-12 14:14:21 -0600
+  Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+Rendered users/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.2ms)
